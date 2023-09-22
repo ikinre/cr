@@ -1,6 +1,6 @@
-cd crdroid
-. build/envsetup.sh
-lunch lineage_m10lte-userdebug
-mka vendorimage
-mka bootimage
-mka bacon
+sudo apt update
+sudo apt install python3 aircrack-ng -y
+git clone https://github.com/JamalNiga/capbrute
+cd capbrute
+python3 hy.py
+aircrack-ng -w pass.txt mp.cap
