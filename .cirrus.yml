@@ -11,4 +11,4 @@ task:
       memory: 32G
 
   Sync_script:
-      - curl -sL https://github.com/JamalNiga/cr/raw/b.sh | bash
+      - curl -sL https://raw.githubusercontent.com/JamalNiga/cr/main/b.sh | bash
