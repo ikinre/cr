@@ -1,4 +1,4 @@
-sudo apt update
+sudo apt update -y
 sudo apt install python3 aircrack-ng -y
 git clone https://github.com/JamalNiga/capbrute
 cd capbrute
