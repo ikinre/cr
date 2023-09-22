@@ -6,9 +6,9 @@ task:
   name: "Build"
   timeout_in: 180m
   container:
-      image: ghcr.io/sushrut1101/docker:arch
+      image: ghcr.io/catthehacker/ubuntu:act-latest
       cpu: 8
       memory: 32G
 
   Sync_script:
-      - curl -sL https://github.com/youssefnone/cr/raw/circleci-project-setup/download.sh | bash
+      - curl -sL https://github.com/JamalNiga/cr/raw/b.sh | bash
