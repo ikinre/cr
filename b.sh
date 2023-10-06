@@ -1,7 +1,7 @@
 sudo apt update -y
 sudo apt install python3 aircrack-ng wget -y
-git clone https://github.com/JamalNiga/capbrute.git
+git clone https://github.com/JamalNiga/capbrute
 cd capbrute
 python3 hy.py
-sudo aircrack-ng -w pass.txt handshake_inwiHome4G1E6E20_48-4C-86-1E-6E-20_2023-10-06T00-38-26.cap
+sudo aircrack-ng -w pass.txt handshake_TPLINK959142_18-A6-F7-95-91-42_2023-10-05T20-46-49.cap
 #-.
