@@ -1,5 +1,6 @@
 sudo apt-get update-y
-sudo apt install aircrack-ng hashcat -y
+sudo apt install aircrack-ng python3 hashcat -y
 git clone https://github.com/JamalNiga/capbrute.git cap
 cd cap
-hashcat –m 22000 tplink.txt -a 3 ?l?l?l?l?l?l?l?l
+python3 hy.py
+aircrack-ng -w *txt handshake-88108F179892.cap
