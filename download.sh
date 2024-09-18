@@ -1,4 +1,4 @@
-j#!/bin/bash
+#!/bin/bash
 
 # install package.
 sudo apt update
