@@ -1,3 +1,4 @@
+#hi
 sudo apt update
 sudo apt install aircrack-ng python3 hashcat nano -y
 cd /root
